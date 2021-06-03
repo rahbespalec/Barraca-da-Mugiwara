@@ -9,7 +9,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
-  
 }
 
 .clear{
@@ -17,7 +16,7 @@
 
 .logo {
     position: absolute;
-    max-width: 25%;
+    min-width: 250px;
     width: 25%;
     left: 9%;
     top: 1px;
@@ -28,8 +27,11 @@
 header{
     padding: 90px ;
     background-color:#32c1fb;
-    
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 
@@ -67,6 +69,7 @@ nav.menu-desktop a:hover{
 }
 
 section.main-bg{
+    margin-top: 240px;
     position:relative;
     width: 100%;
     height: 720px;
@@ -288,9 +291,6 @@ section.persona img{
 
 .car{
     padding:50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center
 }
 
 nav.menu-desktop a{
@@ -298,6 +298,7 @@ nav.menu-desktop a{
 }
 
 section.main-bgi{
+    margin-top: 240px;
     position:relative;
     width: 100%;
     height: 600px;
