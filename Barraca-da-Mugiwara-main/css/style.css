@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear:both;}
+
+.logo {
+    height: 120px;
+    float: left;
+}
+
+header{
+    padding: 20px ;
+    background-color:#32c1fb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+nav.menu-desktop{
+    float:right;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+nav.menu-desktop li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 45px;
+}
+
+nav.menu-desktop li a:hover {
+    color:rgb(0, 57, 179);
+}
+
+nav.menu-desktop a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Kalam";
+    font-size:35px;
+}
+
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+
+section.main-bg{
+    margin-top: 160px;
+    position:relative;
+    width: 100%;
+    height: 720px;
+    padding:0px;
+    background: url("../imagens/luffy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-bg>.container{
+    position:relative;
+    z-index:2 ;
+}
+
+.overlay{
+    z-index: 1;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background:#1f4f59;
+    opacity: 60%;
+    left:0;
+    top:0;
+}
+section.main-bg h1{
+    font-family: 'Rochester';
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding:330px 0;
+    font-size: 130px;
+}
+
+section.ap h1{
+    text-align: center;
+    color:#32c1fb;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Kalam';
+
+}
+
+section.ap p{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    font-size:35px;
+    
+}
+
+section.ap p{
+    padding:35px;
+}
+    
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.877); 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 208, 0); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 208, 0); 
+}
+
+section.cards{
+    padding:30px;
+    background-color: rgb(199, 231, 231);
+}
+
+.card-single{
+    width: 33.3%;
+    float:left;
+    text-align: center;
+   
+}
+
+.card-single img{
+    width: 100%;
+    padding: 20px;
+}
+
+.card-single h2{
+    font-family: fantasy;
+    color:turquoise;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.card-single p{
+    font-weight: lighter;
+    font-family: cursive;
+    font-size:20px;
+  
+}
+
+.athy img {
+    width: 40%;
+}
+
+.footer.footer1 {
+    background-color:#32c1fb;
+    padding: 30px;
+}
+
+.roda {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+
+    .logo-op {
+        position: absolute;
+        max-width: 25%;
+        width: 25%;
+        left: 9%;
+        top: 1px;
+    
+    }
+
+    nav.menu-desktop-op {
+        float:right;
+    }
+    
+    nav.menu-desktop-op li{
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 45px;
+    }
+    
+    nav.menu-desktop-op li a:hover {
+        text-decoration: underline;
+        color:rgb(0, 57, 179);
+    }
+    
+    nav.menu-desktop-op ul{
+        position:relative;
+        top: 40px;
+        
+    }
+    
+    nav.menu-desktop-op a{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Kalam";
+        
+    
+    }
+
+@media screen and (max-widht:500px){
+    nav.menu-mobile{display:block;}
+}
+
+.sinopse{
+    padding:70px;
+}
+.sinopse h1{
+    text-align: center;
+    color:#32c1fb;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Kalam';
+}
+
+.sinopse p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+section.persona h1{
+    text-align: center;
+    color:#32c1fb;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Kalam';
+}
+
+section.persona{
+    padding:30px;
+    background-color: rgb(199, 231, 231);
+}
+
+section.persona img{
+    width: 33.3%;
+    float:left;
+    text-align: center;
+   
+}
+
+.car img{
+    width: 100%;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 480px 
+}
+
+.car p{
+    font-weight: lighter;
+    font-family: cursive;
+    font-size:20px;
+}
+
+.car h2{
+    font-family: fantasy;
+    color:turquoise;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.car{
+    padding:50px;
+}
+
+nav.menu-desktop a{
+    font-size: 35px;
+}
+
+section.main-bgi{
+    margin-top: 240px;
+    position:relative;
+    width: 100%;
+    height: 600px;
+    background: url("../imagens/luffy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-bgi>.container{
+    position:relative;
+    z-index:2 ;
+}
+
+.overlayi{
+    z-index: 1;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background:#1f4f59;
+    opacity: 60%;
+    left:0;
+    top:0;
+}
+section.main-bgi h1{
+    font-family: 'Rochester';
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding:330px 0;
+    font-size: 130px;
+}
