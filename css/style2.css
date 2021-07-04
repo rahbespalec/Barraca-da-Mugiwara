@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear:both;}
+
+.logo {
+    position: absolute;
+    min-width: 250px;
+    width: 25%;
+    left: 9%;
+    top: 1px;
+
+}
+
+
+header{
+    padding: 90px ;
+    background-color:#32c1fb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+
+nav.menu-desktop{
+    float:right;
+}
+
+nav.menu-desktop li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 45px;
+}
+
+nav.menu-desktop li a:hover {
+    color:rgb(0, 57, 179);
+}
+
+nav.menu-desktop ul{
+    position:relative;
+    top: 40px;
+    
+}
+
+nav.menu-desktop a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Kalam";
+    font-size:35px;
+    
+
+}
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+
+section.main-bg{
+    margin-top: 240px;
+    position:relative;
+    width: 100%;
+    height: 720px;
+    padding:0px;
+    background: url("../imagens/luffy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-bg>.container{
+    position:relative;
+    z-index:2 ;
+}
+
+.overlay{
+    z-index: 1;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background:#1f4f59;
+    opacity: 60%;
+    left:0;
+    top:0;
+}
+section.main-bg h1{
+    font-family: 'Rochester';
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding:330px 0;
+    font-size: 130px;
+}
+
+section.ap h1{
+    text-align: center;
+    color:#32c1fb;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Kalam';
+
+}
+
+section.ap p{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    font-size:35px;
+    
+}
+
+section.ap p{
+    padding:35px;
+}
+    
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.877); 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 208, 0); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 208, 0); 
+}
+
+
+    form {
+    width: 80%;
+    border-radius: 30px;
+    background: #32c1fb;
+}
+
+    .box {
+    padding: 40px;
+}
+
+    .box input, .box textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #ffffff;
+    }
+
+
+    .box textarea {
+    resize: none;
+    }
+
+
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #0228ff;
+    background: #00c3ff; 
+    font-size: 16px;
+    color: #fff;
+    }
+
+
+    button:hover {
+    background: #1f87db;
+    }
+
+
+    @media (min-width: 1280px){
+        form {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 1279px){
+
+    * {
+        zoom: 125%;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    .footer.footer1 {
+        background-color:#32c1fb;
+        padding: 30px;
+    }
+
+    .footer {
+        background-color:#32c1fb;
+        padding: 30px;
+    }
+}
